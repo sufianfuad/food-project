@@ -48,6 +48,7 @@ h3{
 .logo img{
     width: 100%;
     padding-left: 50px;
+    padding-top: 10px;
     border-radius: 10px;
 }
 .menu{
@@ -80,6 +81,31 @@ h3{
 }
 .about-item img{
     width: 60%;
+}
+.recipie-text{
+    text-align: center;
+}
+.recipie-text p{
+    text-align: center;
+    font-size: 21px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.recipie-service{
+    overflow: hidden;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+.recipie-part{
+    width: 30%;
+    box-shadow: 10px 10px 15px gray;
+    margin:3% 2% 3% 4%;
+    border-radius: 25px;
+    padding: 1%;
+}
+.recipie-part img{
+    width: 100%;
 }
 
 
