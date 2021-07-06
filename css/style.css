@@ -10,10 +10,10 @@ h3{
     font-size: 40px;
 }
 /*Banner css*/
-.banner-head{
+.banner-area{
     overflow: hidden;
 }
-.banner-title{
+.banner-text{
     color: orangered;
 }
 .banner-item{
@@ -52,11 +52,10 @@ h3{
     border-radius: 10px;
 }
 .menu{
-    float: right;
-    width: 550px;
+    float:right;
+
 }
 .menu ul{
-    list-style: none;
     text-align: right;
 }
 .menu ul li{
@@ -69,6 +68,41 @@ h3{
     display: block;
     color: black;
 }
+.flexible-banner-part{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.banner-text{
+    color: orangered;
+}
+.banner-title p{
+    font-size: 20px;
+}
+.banner-link{
+    margin-top: 60px;
+}
+.banner-item{
+    width: 50%;
+    padding-left: 20px;
+    margin: 30px;
+}
+.banner-item img{
+    width: 75%;
+}
+
+.button{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-image: linear-gradient(orangered, tomato);
+    color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-weight: 500;
+
+}
+
+
 /*About css*/
 .about{
     background-image: url(../img/about-bg.jpg);
@@ -82,10 +116,17 @@ h3{
 .about-item img{
     width: 60%;
 }
-.recipie-text{
+.about-title p{
+    font-size: 20px;
+}
+.about-link{
+    margin-top: 60px;
+}
+/*recipie css*/
+.recipie-title{
     text-align: center;
 }
-.recipie-text p{
+.recipie-title p{
     text-align: center;
     font-size: 21px;
     width: 50%;
@@ -107,7 +148,67 @@ h3{
 .recipie-part img{
     width: 100%;
 }
+/*Contact css*/
+.contact-area{
+    background-image:url(../img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
 
+}
+.contact-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-page{
+    width:60%;
+    border: 5px solid gray;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.form{
+    margin: 50px 100px;
+}
+.form h3{
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin: 15px 0px;
+    padding:10px 15px;
+    font-size: 15px;
+    box-sizing: border-box;
 
+}
+#rsubmit{
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: tomato;
+    font-size: 20px;
+}
+/*Footer css*/
+.footer-part{
+
+    background-color: rgb(40, 9, 63);
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.footer-text{
+    padding-top:20px;
+}
+.footer-text p{
+    text-align: center;
+    color: gray;
+}
+.footer-title{
+    text-align: center;
+    color: gray; 
+}
+.footer-color{
+    text-align: center;
+    color: tomato;
+}
 
 

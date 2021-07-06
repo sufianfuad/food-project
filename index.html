@@ -14,11 +14,10 @@
 
 <body>
     <!--Banner section-->
-    <section class="banner-area">
-        <div class="banner-head">
+    <section class="banner">
+        <div class="banner-area">
             <div class="logo">
                 <img src="img/logo-2.png" alt="Logo">
-
             </div>
             <div class="menu">
                 <ul>
@@ -32,11 +31,17 @@
         </div>
         <div class="flexible-banner-part">
             <div class="banner-item">
-                <h1><span class="banner-title">Skip</span> The Diet,Just Eat Healthy With Food Network</h1>
-                <p>Welcome to Food-Network.We provide you our best services with good and delicious food.So don't worry
-                    about your
-                    diet because we are always sincere for it.</p>
-                <a class="button" href="" target="_blank">order food</a>
+                <div class="banner-title">
+                    <h1><span class="banner-text">Skip</span> The Diet,Just Eat Healthy With Food Network</h1>
+                    <p>Welcome to Food-Network.We provide you our best services with good and delicious food.So don't
+                        worry
+                        about your
+                        diet because we are always sincere for it.</p>
+                </div>
+                <div class="banner-link">
+                    <a class="button" href="https://www.linkedin.com/in/abu-sufian-9676b11b6/" target="_blank">order
+                        food</a>
+                </div>
             </div>
             <div class="banner-item">
                 <img src="img/pic11.png" alt="">
@@ -50,21 +55,28 @@
                 <img src="img/about-img.png" alt="">
             </div>
             <div class="about-item">
-                <h3>About Us</h3>
-                <p>Welcome to our about page.Our business takes advantage of modern tech by using this website.Whis this
-                    website customer are able to order and pay for their food up to thirty minutes to delivery,for a
-                    quick
-                    and streamlined experience.So you can
-                    contact with us in facebook,twitter. We are ready Always for give you better services. </p>
-                <a class="button" id="click" href="" target="_blank">Contact us</a>
+                <div class="about-title">
+                    <h3>About Us</h3>
+                    <p>Welcome to our about page.Our business takes advantage of modern tech by using this website.Whis
+                        this
+                        website customer are able to order and pay for their food up to thirty minutes to delivery,for a
+                        quick
+                        and streamlined experience.So you can
+                        contact with us in facebook,twitter. We are ready Always for give you better services. </p>
+                </div>
+                <div class="about-link">
+                    <a class="button" href="https://www.linkedin.com/in/abu-sufian-9676b11b6/" target="_blank">Contact
+                        us</a>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- Recipie section-->
     <section class="recipie-area">
 
-        <div class="recipie-text">
-            <div class="recipie-title">
+        <div class="recipie-title">
+            <div class="recipie-text">
                 <h3>Our Recipie</h3>
             </div>
             <p>Welcome! there are many items are available in our food corner.We serve food with special chef.Specially
@@ -105,15 +117,39 @@
     </section>
     <!--Contact section-->
     <section class="contact-area">
+        <div class="contact-title">
+            <h3>Contact Us</h3>
+        </div>
         <div class="contact-page">
-            <div class="contact-form">
+            <div class="form">
+                <h3>Sign In</h3>
                 <form action="">
-                    <label for="name">Username:</label>
-                    <input type="name">
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" name="fname" placeholder="firstname"><br>
+
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" name="lname" placeholder="last-name"><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" name="email" placeholder="enter your mail"><br>
+
+                    <label for="pws">Password:</label>
+                    <input type="password" name="pass">
+
+                    <input type="submit" name="submit" id="rsubmit">
                 </form>
             </div>
         </div>
-
+    </section>
+    <section class="footer-part">
+        <footer>
+            <div class="footer-text">
+                <div class="footer-title">
+                    <h3><span class="footer-color">Food</span> Services</h3>
+                </div>
+                <p>&copy;2021, Eat healthy to live healthy. Live healthy to live happy.</p>
+            </div>
+        </footer>
     </section>
 
 </body>
